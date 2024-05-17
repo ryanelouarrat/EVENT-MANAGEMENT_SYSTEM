@@ -1,0 +1,184 @@
+.hero {
+    height: 54vh;
+    max-width: 100vw;
+    background-size: cover;
+}
+
+.hero h1 {
+    text-align: center;
+    font-family: 'trip';
+    font-weight: 900;
+    color: white;
+
+}
+
+.eventInfo {
+    max-height: none;
+
+}
+
+.eventInfo img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+
+}
+
+.eventInfo h3 {
+    font-family: 'trip';
+    font-weight: 900;
+    display: inline;
+    text-transform: capitalize;
+    vertical-align: middle;
+}
+
+.eventInfo .nameDate {
+    max-width: 100vw;
+    margin: auto !important;
+    padding: 2vh;
+}
+
+.Eventdate {
+    font-family: 'Montserrat Medium';
+    display: inline;
+    text-transform: capitalize;
+    vertical-align: middle;
+    padding-right: 3vw;
+}
+
+.Description {
+    padding-left: 4vw;
+    padding-right: 3vw;
+    font-family: 'Montserrat Medium';
+    font-size: 16px;
+}
+
+
+.Tags a {
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 1rem;
+    color: #a1a1af;
+}
+
+.Tags a.tag {
+    display: inline-block;
+    padding: 0.3em 0.85em;
+    margin: 0.5em;
+    text-transform: capitalize;
+    border: 3px solid #000;
+    border-radius: 2em;
+    transition: transform 0.2s;
+    transition-timing-function: cubic-bezier(0.45, -0.85, 0.55, -0.45);
+}
+
+.Tags a.tag:hover {
+    transform: scale(1.2);
+    background: linear-gradient(to right, #3F51B5, #5C6BC0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Tags {
+    margin-top: 1vh;
+}
+
+.book {
+    margin-top: 3vh;
+}
+
+.book button {
+    background-color: #3F51B5;
+    font-family: 'trip';
+    color: #fff;
+    width: 15vw;
+    border: none;
+    border-radius: 5px;
+    padding: 1vh 2vw;
+    transition: background-color 0.3s ease;
+
+}
+
+.book button:hover {
+    background-color: #5C6BC0;
+}
+
+.comment-form {
+    width: 50vw;
+    margin: 0 auto;
+    margin-top: 5vh;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.comment-form h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    font-family: 'trip';
+}
+
+.comment-form form {
+    display: grid;
+    gap: 15px;
+}
+
+.comment-form label {
+    font-size: 16px;
+    color: #555;
+    font-family: 'tripmid';
+}
+
+.comment-form input,
+.comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.comment-form button {
+    background-color: #3F51B5;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.comment-form button:hover {
+    background-color: #5C6BC0;
+}
+
+.comments-section {
+    max-width: 600px;
+    margin: 20px auto;
+    overflow-y: auto;
+}
+
+.comments-section h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+    font-family: 'trip';
+}
+
+.comment {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+
+}
+
+.comment strong {
+    font-weight: bold;
+    color: black;
+}
+
+.comment p {
+    margin: 5px 0;
+    color: #555;
+}

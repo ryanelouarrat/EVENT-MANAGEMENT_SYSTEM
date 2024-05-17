@@ -1,0 +1,25 @@
+h1{
+    font-family: 'trip';
+    text-align:center;
+}
+label{
+    display:inline-block;
+    width: 30vw;
+    font-family: 'tripmid';
+}
+button{
+    background-color: #3F51B5;
+    font-family: 'trip';
+    color: #fff;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 1vh 2vw;
+    transition: background-color 0.3s ease;
+}
+form{
+    padding: 5vh 10vw 5vh 10vw;
+}
+button:hover {
+    background-color:#5C6BC0;
+}

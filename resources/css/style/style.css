@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Montserrat Black';
+    src: url('../fonts/Montserrat-Black.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url('../fonts/Montserrat-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Montserrat Medium';
+    src: url('../fonts/Montserrat-Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'trip';
+    src: url('../fonts/trip/TripSans-Ultra.woff2');
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.navbar-brand img {
+    width: 10vw;
+    margin: 0 0;
+}
+
+nav li a {
+    font-family: 'trip';
+    font-weight: 900;
+    font-style: normal;
+}
+
+.events {
+    color: #3F51B5 !important;
+}
+
+.explore {
+    font-size: 5rem;
+}
+
+.date {
+    text-decoration: underline;
+}
+
+nav a.active,
+nav a:hover {
+    color: #3F51B5 !important;
+}
+
+.game-section p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+}
+.mainTitle{
+    color: #000 ;
+    margin-bottom: 5vh;
+    font-family: 'trip';
+    font-weight: 900;
+    font-style: normal;
+}
+.gallery{
+    margin-left: 5vw;
+}
+.page1{
+    height: 80vh;
+
+}

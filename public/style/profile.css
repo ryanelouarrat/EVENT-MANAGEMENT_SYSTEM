@@ -1,0 +1,97 @@
+.profile {
+    display: flex;
+    height: 80vh;
+}
+
+.sidebar {
+    flex: 0 0 18%;
+    /* Adjust the width of the sidebar as needed */
+    border-right: 1px solid #ddd;
+    padding-top: 20px;
+    color: #000;
+    /* Text color for the sidebar */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profilepic {
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto; 
+}
+
+
+.profile ul {
+    margin-left: 1vw;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.profile ul .active {
+    color: #3F51B5 !important;
+}
+
+/* Add this rule to make the sidebar content take up the remaining space vertically */
+.sidebar-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainco {
+    overflow-y: auto;
+    height: 80vh;
+}
+
+.logo-container {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 20px;
+    /* Adjust as needed */
+}
+
+.logo {
+    height: 50px;
+    /* Adjust the height of the logo as needed */
+    width: auto;
+}
+
+.projcard {
+    min-height: 220px;
+    max-height: none;
+}
+.profileButton{
+    border: #000 solid 1px;
+    border-radius: 5px;
+    padding: 4px 10px;
+    margin-left: 10px;
+    color: #000;
+    text-decoration: none;
+}
+.mainco h1,h2{
+    font-family: 'trip';
+}
+.sidebar-content,h3,h4{
+    font-family: 'tripmid';
+}
+.editbtn,.deletebtn{
+    background: none;
+    border-radius: 5px;
+    font-family: 'tripmid';
+}
+table {
+    border-collapse: collapse;
+    width: 50vw;
+    margin: auto;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}

@@ -1,0 +1,26 @@
+.Big-title{
+margin-left: 15vw;
+font-family: "trip";
+font-size:3rem;
+}
+.piclogin{
+    background-image: url('../media/computer-security-with-login-password-padlock.png');
+    height: 40vh;
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+label{
+    font-family:'trip','Times New Roman', Times, serif;
+}
+.text-right button{
+    background-color: #3F51B5;
+    color: #fff;
+    font-family: 'trip','Arial';
+    font-weight: 100;
+}
+.signup{
+    padding:10vh 20vw 10vh 20vw;
+    height: auto;
+}
